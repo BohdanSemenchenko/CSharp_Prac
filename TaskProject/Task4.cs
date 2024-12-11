@@ -13,7 +13,7 @@ public class Task4 : ITask
         array = new int[10 + lastDigit];
         for (int i = 0; i < array.Length; i++)
         {
-            array[i] = random.Next(-100, 100); // Random values from -100 to 100
+            array[i] = random.Next(-100, 100);
         }
     }
 
